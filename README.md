@@ -72,3 +72,24 @@ El servidor estará disponible en: [http://localhost:8001](http://localhost:8001
            }
        ]
    }
+
+2. **Usar el modelo**  
+   **POST** `/predict`  
+   Envía datos para usar el modelo.
+
+   el modelo Json que se envia es para poder predecir las ventas teniendo en cuenta
+   el precio, marketing y descuento que se le pondra al producto.
+
+   el modelo nos devolvera una predición de cuanta ventas se podran obtener.  
+
+   **Cuerpo del JSON:**
+   ```json
+   {
+       "data": [
+           {
+               "Precio": 100.0,
+               "Marketing": 200.0,
+               "Descuento": 10.0,
+           },
+       ]
+   }
