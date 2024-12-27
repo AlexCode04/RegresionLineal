@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "regresionlinealapi"
+version = "0.1.0"
+description = ""
+authors = ["AlexCode04 <angelrap.1111@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+pandas = "^2.2.3"
+scikit-learn = "^1.6.0"
+joblib = "^1.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
