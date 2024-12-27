@@ -93,3 +93,11 @@ El servidor estará disponible en: [http://localhost:8001](http://localhost:8001
            },
        ]
    }
+
+3. **obtener parametros del modelo**  
+   **GET** `/parameters`  
+   
+  Se utiliza para obtener los parametros del modelo, para de esta manera determinar
+  las variables independientes que afectan mayormente sobre la cantidad de ventas
+  o del valor de la variable dependiente, de esta forma dictaminar cual de esas variables
+  realizar un mayor enfoque.
